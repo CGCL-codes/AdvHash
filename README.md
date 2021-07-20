@@ -56,7 +56,7 @@ The ```xxx.txt ``` files in each subdirectory of ``` data ``` denote the image p
 
 Alternatively, a trained model is already given in  ```save/CSQ-NUSWIDE/64bit/ResNet50/0.8414122485306301/model.pt```.
 
-Please refer [DeepHash-PyTorch](https://github.com/gaoyang-zhang/DeepHash-pytorch) for more training details such as datasets downloads.
+Please refer [DeepHash-PyTorch](https://github.com/swuxyj/DeepHash-pytorch) for more training details such as datasets downloads.
 
 ## Calculate the anchor codes
 
