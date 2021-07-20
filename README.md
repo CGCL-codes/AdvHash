@@ -52,9 +52,9 @@ python HashNet.py
 
 Note that, you need to set the parameters in the ```get_config ``` function to specifically train the model you want. The trained models will be saved in the ```save```  directory, denoted as ```model.pt```,  along with the ```.npy``` files of hashcodes and labels w.r.t  images from database set and test set respectively.
 
-The ```xxx.txt ``` files in each subdirectory of ``` data ``` denote the image paths and labels for each dataset respectively. Please set the absolute path for each image correctly ! !
+The ```xxx.txt ``` files in each subdirectory of ``` data ``` denote the image paths and labels for each dataset respectively. Please set the path for each image correctly ! !
 
-Alternatively, a trained model is already given in  ```save/CSQ-NUSWIDE/64bit/ResNet50/0.8414122485306301/model.pt```.
+
 
 Please refer [DeepHash-PyTorch](https://github.com/swuxyj/DeepHash-pytorch) for more training details such as datasets downloads.
 
