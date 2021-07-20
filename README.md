@@ -7,7 +7,7 @@ The success of machine learning has brought great research progress for multimed
 
 In this paper, we propose AdvHash, the first targeted mismatch attack on deep hashing through adversarial patch. After superimposed with the same adversarial patch, any query image with a chosen label will retrieve a set of irrelevant images with the target label. Concretely, we first formulate a set-to-set problem, where a set of samples are pushed into a predefined clustered area in the Hamming space. Then we obtain a target anchor hash code and transform the attack to a set-to-point optimization. In order to generate a image-agnostic stable adversarial patch for a chosen label more efficiently, we propose a product-based weighted gradient aggregation strategy to dynamically adjust the gradient directions of the patch, by exploiting the Hamming distances between training samples and the target anchor hash code and assigning different weights to discriminatively aggregate gradients. Extensive experiments on benchmark datasets verify that AdvHash is highly effective at attacking two state-of-the-art deep hashing schemes.
 
-<!-- <img src="images/image-20210623184213934.png" alt="image-20210623184213934" style="zoom:50%;" /> -->
+<img src="images/image-20210623184213934.png" alt="image-20210623184213934" style="zoom:50%;" />
 
 ## Requirements
 
