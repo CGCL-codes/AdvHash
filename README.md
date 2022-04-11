@@ -94,8 +94,15 @@ Run the following command to realize the attack from label 0 to label 1:
 python patch_attack.py --attack_which 1 --source_txt attack/source0.txt  --test_txt attack/test0.txt
 ```
 
-NOTE THAT : You need to set all images from source_txt and test_txt within the same label.
-
-
+## BibTex
+```tex
+@inproceedings{hu2021advhash,
+  title={AdvHash: Set-to-set Targeted Attack on Deep Hashing with One Single Adversarial Patch},
+  author={Hu, Shengshan and Zhang, Yechao and Liu, Xiaogeng and Zhang, Leo Yu and Li, Minghui and Jin, Hai},
+  booktitle={Proceedings of the 29th ACM International Conference on Multimedia},
+  pages={2335--2343},
+  year={2021}
+}
+```
 
 
