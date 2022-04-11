@@ -14,8 +14,7 @@ In this paper, we propose AdvHash, the first targeted mismatch attack on deep ha
 - python 
 - torch==1.8.0
 - torchvision==0.9.0
-- tqdm
-- sklearn 
+
 
 ## Modules
 
