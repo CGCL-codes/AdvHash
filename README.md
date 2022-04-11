@@ -52,11 +52,10 @@ python HashNet.py
 
 Note that, you need to set the parameters in the ```get_config ``` function to specifically train the model you want. The trained models will be saved in the ```save```  directory, denoted as ```model.pt```,  along with the ```.npy``` files of hashcodes and labels w.r.t  images from database set and test set respectively.
 
-The ```xxx.txt ``` files in each subdirectory of ``` data ``` denote the image paths and labels for each dataset respectively. Please set the path for each image correctly ! !
+The ```xxx.txt ``` files in each subdirectory of ``` data ``` denote the image paths and labels for each dataset respectively. Remember to set the path for each image correctly 
 
 
-
-Please refer [DeepHash-PyTorch](https://github.com/swuxyj/DeepHash-pytorch) for more training details such as datasets downloads.
+Refer [DeepHash-PyTorch](https://github.com/swuxyj/DeepHash-pytorch) for more training details such as datasets downloads.
 
 ## Calculate the anchor codes
 
@@ -74,7 +73,7 @@ Run the following command:
 python patch_attack.py
 ```
 
-You can set the specific parameters with ```--xx```:
+Set the specific parameters with following:
 
 - gpu_id:  the gpu you want to load the model.
 - num_iteration: the number of iterations in each mini-batch training.
