@@ -94,7 +94,7 @@ python patch_attack.py --attack_which 1 --source_txt attack/source0.txt  --test_
 ```
 
 ## BibTex
-```tex
+```bibtex
 @inproceedings{hu2021advhash,
   title={AdvHash: Set-to-set Targeted Attack on Deep Hashing with One Single Adversarial Patch},
   author={Hu, Shengshan and Zhang, Yechao and Liu, Xiaogeng and Zhang, Leo Yu and Li, Minghui and Jin, Hai},
